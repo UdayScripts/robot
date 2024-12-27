@@ -130,7 +130,7 @@ bot.on('message', (msg) => {
         const shortCode = userStates[chatId].shortCode;
         const newUrl = text;
 
-        const apiUrl = 'https://api.udayscripts.in/edit_link.php';
+        const apiUrl = 'https://offers-foryou.site/edit_link.php';
         fetch(apiUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -152,7 +152,7 @@ bot.on('message', (msg) => {
     const urlRegex = /https?:\/\/[^\s]+/;
     if (urlRegex.test(text)) {
         if (isPremium) {
-            const apiUrl = 'https://api.udayscripts.in/link.php';
+            const apiUrl = 'https://offers-foryou.site/link.php';
             fetch(apiUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
