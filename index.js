@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
 const TOKEN = '7760242583:AAGxFwcOXoNNybnmHMlMOftcrSe2zOE8s70';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
-const ADMIN_ID = 1489381549;
+const ADMIN_ID = 952283596;
 
 let premiumUsers = new Set();
 let temporaryPremiumUsers = new Map();
